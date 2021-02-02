@@ -1,7 +1,9 @@
-function fibonacci(num) {
-    if (num <= 1) return 1;
-    
-    return fibonacci(num - 1) + fibonacci(num - 2);
-}
+/**
+ * @param {number} num
+ * @return {number}
+ */
 
-console.log(fibonacci(2))
+function fibonacci(num) {
+  if (num <= 1) return 1;
+  return fibonacci(num - 1) + fibonacci(num - 2);
+}
